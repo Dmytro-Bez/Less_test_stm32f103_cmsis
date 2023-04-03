@@ -13,6 +13,8 @@ void cmsis_PC13_output_push_pull_init(void);	//Налаштування PC13 п�
 void cmsis_sys_tick_timer_init(void);			//Налаштування затримки системи
 void SysTick_Handler(void);						//Звороній зв'язок для таймера з векторм переривань
 void delay_ms(uint32_t milliseconds);			//Функція затримки(Delay_ms)
+void cmsis_setting_swd(void);
+void cmsis_swd_afio_setting(void);
 
 #ifdef __cplusplus
 }
